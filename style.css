@@ -21,26 +21,31 @@ body {
   color: var(--text);
   line-height: 1.7;
   min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  width: 100%;
+  background: linear-gradient(180deg, #0a1628 0%, #000 100%);
   display: flex;
   justify-content: center;
-  padding: 0 1.5rem 3rem;
+  padding: 0 1.5rem;
 }
 
 .container {
   max-width: 640px;
   width: 100%;
+  padding: 0 1.5rem 3rem;
 }
 
-/* Hero gradient */
 .profile {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  max-width: 640px;
+  width: 100%;
   padding: 60px 0 40px;
-  margin: 0 -1.5rem 2rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  background: linear-gradient(180deg, #0a1628 0%, #000 100%);
 }
 
 .profile img {
